@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Books of history</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <div id="header"><h1 id="title">Books of History</h1></div>
+    <div id = "contentDiv">
+      <div id="book_display">
+        <input id = "searchField">
+        <button onclick="search()" id="search_button">Search</button>
+        <h3 id="confirmation_text"></h3>
+        <table id="myTable">
+          <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Publication date</td>
+          </tr>
+        </table>
+        <button onclick="displayBookMenu()">+</button>
+      </div>
+      <div id = "book_info">
+        <h2 id = "job_info">Add book</h2>
+        <h3>Title</h3>
+        <input id = "book_title">
+        <h3>Author</h3>
+        <input id = "author">
+        <h3>Publication date</h3>
+        <input id = "publi_date">
+        <br></br>
+        <button onClick="clearBookInfo()" id="cancel_button">Cancel</button>
+      </div>
+    </div>
+    <script src="static/script.js"></script>
+  </body>
+</html>

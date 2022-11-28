@@ -1,0 +1,35 @@
+body
+{
+  background-color: rgb(58, 60, 85);
+  margin:0;
+    padding:0;
+}
+
+#header
+{
+  position: sticky;
+  background-color: white;
+  margin:0;
+}
+
+#title
+{
+  text-align: center;
+  margin:0;
+}
+
+td, h2, h3
+{
+  color: white;
+}
+
+.hoverable_Element:hover
+{
+  background-color: grey;
+}
+
+#contentDiv
+{
+  padding-top: 10px;
+  padding-left: 10px;
+}
