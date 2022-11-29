@@ -9,4 +9,4 @@ The default page view<br>
 Search functionality<br>
 <img src="/photos/Web_search.PNG">
 The creation, update and deletion functionalities in action
-<img src="/photos/web_example.GIF">
+<img src="/photos/web_example.gif">
