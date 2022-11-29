@@ -8,3 +8,4 @@ The default page view<br>
 <img src="/photos/web_example.PNG">
 Search functionality<br>
 <img src="/photos/Web_search.PNG">
+<img src="/photos/web_example.GIF">
